@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HighLow</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+  <fieldset>
+   <legend>Inputs</legend>
+   <label for="guess">Your Guess:</label>
+   <input type="text" id="guess" value="523" />
+   <input type="button" onclick="yourGuess()" value="submit" /><br />
+   <input type="button" id="showguesses" onclick="showGuesses()" value="Show My Guesses" />
+   <input type="button" onclick="generateNumberToGuess(true)" value="New Game" /><br />
+   <input id="cheat" type="checkbox" value="cheat" onclick="showNumberToGuess()" />
+   <label for="cheat">Cheat</label>
+   <div id="cheatShow" style="display: none;">
+    <input id="numberToGuess" type="text" />
+    <label for="numberToGuess">Number to guess</label>
+   </div>
+  </fieldset>
+  <fieldset id="guesses" class="guesses">
+   <legend> Output </legend>
+   <textarea id="output" name="output" rows="5" style="width: 100%;"></textarea>
+  </fieldset>
+<script type="text/javascript" src="highlow.js"></script>
+<h1></h1>
+<a href="match.html" class="mode">Memory Match Game</a>
+
+</body>
+</html>

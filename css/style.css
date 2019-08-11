@@ -1,0 +1,66 @@
+body
+{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  font-family: sans-serif,Arial;
+  background-blend-mode: overlay;
+}
+table
+{
+width:80%;
+border-spacing: ="0";
+}
+h1
+{
+  border-style: double;
+}
+h2
+{
+  border-bottom: double;
+}
+#Education
+{
+list-style: disc;
+}
+#list
+{
+list-style: none;
+}
+div.static
+{
+    position: relative;
+
+    font-style: italic;
+    text-align: center;
+    font-family: monospace,Arial;
+}
+span
+{
+color: red;
+font-weight: bold
+}
+#Homework tr:nth-child(even)
+{
+  background-color:#f2f2f2
+}
+#Homework 
+{
+text-align: center;
+}
+
+a:link
+{
+    color: black;
+}
+
+
+a:visited
+{
+    color: green;
+}
+
+
+a:hover
+{
+    color: hotpink;
+}

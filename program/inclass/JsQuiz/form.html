@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("You must fill out all of the field");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post">
+Id: <input type="text" name="Id">
+First Name: <input type="text" name="FirstName">
+Last Name: <input type="text" name="LastName">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

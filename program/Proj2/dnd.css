@@ -1,0 +1,45 @@
+html {
+background: url("deal.png") center center fixed;
+
+background-size: cover;
+overflow-x: hidden;
+
+}
+
+#label {
+    color:white;   
+}
+
+.entry {
+    position:relative;
+    top:440px;
+    left:500px;    
+}
+
+
+.btn {
+  background-color: gold;
+  border: none;
+  color: black;
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#password {
+    
+    position: relative;
+    left:12px;
+}
+
+.btn:hover {
+  background-color: #ffcc00;
+  color: white;
+}
+
+#bmov {
+    position:relative;
+    left: 125px;
+    top: 20px;
+}

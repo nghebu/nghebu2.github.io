@@ -1,0 +1,79 @@
+body
+{
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+      background-attachment: fixed;
+background-color:#FFCC00;
+color: #000000;
+font-family: Georgia, Garamond;
+}
+h1,h2
+{
+  color: #A4A400;
+  background-color: #F0F0F0;
+  text-align: center;
+  font-family: Century Gothic, Futura, Verdana;
+}
+#navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation_button {
+    float: left;
+}
+
+.navigation_button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation_button a:hover
+{
+    background-color: #111;
+    transition: 500ms;
+}
+.bold
+{
+  font-weight: bold;
+}
+table
+{
+  color: #FFFFFF;
+
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #CC9933;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+td, th {
+    border: 2px solid #FFFFFF;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
+th
+{
+text-align: center;
+background-color:  #003366;
+}
+.headTab
+{
+  color: #A4A400;
+  background-color: #F0F0F0;
+
+}
+img
+{
+  float:right;
+}
